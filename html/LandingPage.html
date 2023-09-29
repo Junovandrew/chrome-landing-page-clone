@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Tab</title>
+    <link rel="stylesheet" href="../css/LandingPage.css"/>
+</head>
+<body>
+    <div class="header">
+        <div class="space">
+            <span class="gb_cd" aria-level="1" role="heading"> </span>
+        </div>
+
+        <div class="content">
+            <div class="mail">
+                <a class="gmail" aria-label="Gmail (opens a new tab)" data-pid="23" href="https://mail.google.com/mail/?tab=rm&ogbl" target="_top">Gmail</a>
+            </div>
+            <div class="img">
+                <a class="images" aria-label="Search for Images (opens a new tab)" data-pid="2" href="https://www.google.com/imghp?hl=en&tab=ri&ogbl" target="_top">Images</a>
+            </div>
+            
+        </div>
+        
+        <div class="content-2">
+            <div class="app">
+                <a class="google-apps" aria-label="Google apps" href="https://www.google.com.ng/intl/en/about/products?tab=rh" aria-expanded="false" role="button" tabindex="0" target="_top"
+                title="Google apps">
+                    <svg class="apps" focusable="false" viewBox="0 0 24 24">
+                        <path fill="white" d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="pic">
+                <a aria-label="Google Account: Abraham Ediae (osahonandrews24@gmail.com)" href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com%3Fhl%3Den-US&ec=GBRA8wE" aria-expanded="false" role="button" tabindex="0" target="_top"
+                title='Google account &#13;Abraham Ediae &#13;osahonandrews24@gmail.com'>
+                    <img class="profile" src="../resources/profile pic.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="logo">
+            <img class="google-logo" src="../resources/google_logo.svg">
+    </div>
+    <div class="inputWrapper">
+        <img class="icon" src="../resources/icon_search.svg">
+
+        <input id="input" type="search" placeholder="Search Google or type a URL"/>
+
+        <button class="voice-icon-button" title="Search by voice">
+            <img src="../resources/googlemic_clr_24px.svg" class="search-icon-button"/>
+        </button>
+
+        <button class="image-icon-button" title="Search by image">
+            <img src="../resources/lens_icon.svg" class="search-icon-button"/>
+        </button>
+    </div>
+
+    <div class="container js-container">
+    </div>
+
+    <div class="customize-button-container">
+        <button class="customize-button" title="Customize this page" aria-pressed="false" role="button" tabindex="0" aria-disabled="false" data-native-id="NewTabPageUI::kCustomizeChromeButtonElementId">
+            <div><img class="customize-icon" src="../resources/icon_pencil.svg"></div>
+            <div class="customize-text">Customize Chrome</div>
+        </button>
+    </div>
+
+    <dialog id="dialog">
+        <div class="edit-shortcut">Edit shortcut</div>
+        <form>
+            <div>
+                <label>Name</label>
+                <input id="name-d"  type="text" placeholder="animepahe"/>
+            </div>
+
+            <div>
+                <label>URL</label>
+                <input id="url-d"type="text" placeholder="kfff"/>
+            </div>
+        </form>
+        <div class="btns">
+            <button type="button" class="cancel">Cancel</button>
+            <button type="submit" class="done">Done</button>
+        </div>           
+    </dialog>
+     
+    <script type="text/javascript" src="../js/Favorite.js"></script>
+
+    <script type="text/javascript" src="../js/LandingPage.js"></script>
+</body>
+</html>
